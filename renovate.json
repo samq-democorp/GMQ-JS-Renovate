@@ -1,0 +1,15 @@
+{
+
+  "packageRules": [
+
+    {
+
+      "matchConfidence": ["high", "very high"],
+
+      "groupName": "high merge confidence"
+
+    }
+
+  ]
+
+}
