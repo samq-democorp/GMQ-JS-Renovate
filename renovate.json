@@ -1,5 +1,5 @@
 {
-  "extends": ["samq-democorp/whitesource-config:mergconf"],
+  "extends": ["samq-democorp>whitesource-config:mergconf"],
   "enabledManagers": ["npm", "maven"],
   "packageRules": [
     {
