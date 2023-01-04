@@ -1,15 +1,16 @@
 {
-
+  "extends": ["github>whitesource/merge-confidence:beta"],
+  "enabledManagers": ["npm", "maven"],
   "packageRules": [
-
     {
-
       "matchConfidence": ["high", "very high"],
-
+      "labels": ["high Confidence"],
       "groupName": "high merge confidence"
-
+    },
+    {
+      "matchConfidence": ["low", "neutral"],
+      "enabled": false
     }
-
-  ]
-
+  ],
+  "dependencyDashboard": true
 }
